@@ -29,6 +29,7 @@ class _CryptoListScreenState extends State<CryptoListScreen> {
       appBar: AppBar(
         title: const Text('Crypto Prices'),
       ),
+      
       body: Center(
         child: FutureBuilder<List<CryptoModel>>(
           future: futureCryptos,
